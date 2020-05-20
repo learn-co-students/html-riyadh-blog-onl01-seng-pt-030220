@@ -6,7 +6,8 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background-image: linear-gradient(to right,lightskyblue, blue, darkblue);
+  /* background: url(../images/backgrounds/architecture.jpg) center no-repeat; */
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
@@ -17,6 +18,9 @@ body {
   margin: 0 auto;
   width: 60%;
   padding-bottom: 40px;
+  color: darkblue;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #content {
